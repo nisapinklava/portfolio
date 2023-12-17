@@ -16,6 +16,7 @@ p{
 
 nav, footer, a{
 	font-weight: bold;
+	font-size: 12px;
 }
 
 body{
@@ -50,6 +51,7 @@ body{
 	color: var(--main-color);
 	font-weight: bold;
 	display: inline;
+	font-size: 14px;
 }
 
 nav{
@@ -62,4 +64,15 @@ main{
 	border-left: 2.5px dashed white;
 	border-right: 2.5px dashed white;
 	padding: 0 1em;
+}
+
+.code img, .art img{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 100%;
+	}
 }
